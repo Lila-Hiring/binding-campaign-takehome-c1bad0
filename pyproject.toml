@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "binding-campaign-takehome"
+version = "1.0.0"
+description = "Take-home exercise: agent environments and experimental design for a protein-ligand binding campaign"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scipy>=1.10"]
+
+[project.optional-dependencies]
+chem = ["rdkit>=2023.9"]
+
+[tool.setuptools]
+packages = ["twin"]

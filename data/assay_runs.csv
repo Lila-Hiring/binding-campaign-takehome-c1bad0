@@ -1,0 +1,4 @@
+run_id,campaign,assay_version,start_date,protein_lot,protein_nm_nominal,tracer_lot,tracer_nm,detergent,dmso_pct,incubation_min,top_conc_um,dilution,n_points,replicates,notes
+R1,C1,v1,2026-03-02,L1,20.0,T1,5.0,none,2.0,30,50.0,3.0,10,2,Original protocol.
+R2,C2,v2,2026-04-13,L2,20.0,T1,5.0,tween20_0.01pct,1.0,60,50.0,3.0,10,2,Added 0.01% Tween-20; DMSO reduced to 1%; incubation extended to 60 min. New protein prep (lot L2).
+R3,C3,v3,2026-06-01,L1,10.0,T2,5.0,tween20_0.01pct,1.0,120,30.0,3.0,10,2,Switched to tracer lot T2 (label moved to improve brightness). Protein lowered to 10 nM. Back to lot L1.
